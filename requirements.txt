@@ -1,0 +1,3 @@
+pptk
+open3d
+PyQt5

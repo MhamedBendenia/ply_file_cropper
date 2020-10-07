@@ -1,13 +1,12 @@
 import sys
-from PyQt5.QtWidgets import QMainWindow, QApplication, QWidget, QAction, QTableWidget, QTableWidgetItem, QGridLayout, \
+from PyQt5.QtWidgets import QApplication, QWidget, QTableWidget, QTableWidgetItem, QGridLayout, \
     QFileDialog, QPushButton, QLineEdit, QInputDialog
-from PyQt5.QtGui import QIcon, QWindow
+from PyQt5.QtGui import QWindow
 from PyQt5.QtCore import pyqtSlot, Qt
 import numpy as np
 import pptk
 import win32gui
 import open3d as o3d
-from pynput.keyboard import Key, Listener
 import pickle
 
 
